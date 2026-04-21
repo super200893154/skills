@@ -428,6 +428,15 @@ export const agents: Record<AgentType, AgentConfig> = {
       return existsSync(join(home, '.adal'));
     },
   },
+  codearts: {
+    name: 'codearts',
+    displayName: 'CodeArts',
+    skillsDir: '.codeartsdoer/skills',
+    globalSkillsDir: join(home, '.codeartsdoer/skills'),
+    detectInstalled: async () => {
+      return existsSync(join(home, '.codeartsdoer'));
+    },
+  },
   universal: {
     name: 'universal',
     displayName: 'Universal',
