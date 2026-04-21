@@ -1,5 +1,5 @@
 {
-  "name": "skills",
+  "name": "@super200893154/skills",
   "version": "1.5.1",
   "description": "The open agent skills ecosystem",
   "type": "module",
@@ -13,6 +13,10 @@
     "README.md",
     "ThirdPartyNoticeText.txt"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
   "scripts": {
     "build": "node scripts/generate-licenses.ts && obuild",
     "generate-licenses": "node scripts/generate-licenses.ts",
@@ -85,11 +89,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vercel-labs/skills.git"
+    "url": "git+https://github.com/super200893154/skills.git"
   },
-  "homepage": "https://github.com/vercel-labs/skills#readme",
+  "homepage": "https://github.com/super200893154/skills#readme",
   "bugs": {
-    "url": "https://github.com/vercel-labs/skills/issues"
+    "url": "https://github.com/super200893154/skills/issues"
   },
   "author": "",
   "license": "MIT",
